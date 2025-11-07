@@ -13,7 +13,6 @@ try {
     
     echo "=== VÉRIFICATION DES DOUBLONS ===\n\n";
     
-    // 1. Vérifier les doublons par yelp_id
     echo "1. Vérification des doublons par yelp_id...\n";
     $stmt = $connection->prepare("
         SELECT yelp_id, COUNT(*) as count 

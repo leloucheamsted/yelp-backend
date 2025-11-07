@@ -12,9 +12,7 @@ class DatabaseSQLite {
         $this->createTables();
     }
 
-    /**
-     * Connexion à la base SQLite
-     */
+
     private function connect() {
         try {
             // Créer le répertoire si nécessaire
