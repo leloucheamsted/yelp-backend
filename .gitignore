@@ -1,0 +1,31 @@
+# Variables d'environnement
+.env
+
+# Logs
+*.log
+error.log
+access.log
+
+# Base de données locale
+*.sqlite
+*.db
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Sauvegarde des éditeurs
+*~
+*.bak
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
